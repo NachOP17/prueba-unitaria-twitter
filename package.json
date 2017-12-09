@@ -1,0 +1,20 @@
+{
+  "name": "pruebas-unitarias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.test.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "export NODE_ENV=test || \"SET NODE_ENV=test\" && mocha *.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1"
+  }
+}
